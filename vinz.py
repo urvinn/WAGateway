@@ -9,7 +9,7 @@ from os import system
 # SETTINGS PANEL #
 
 # can get DeviceKey On : https://iamvinz.com/WAPI
-DeviceKey = "Y0z3i1VoVCGL"
+DeviceKey = "bbtGDVmkaG2G"
 AppType = "application/json"
 
 # SETTINGS PANEL ENDED
