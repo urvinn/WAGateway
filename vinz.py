@@ -11,7 +11,7 @@ from os import system
 DeviceKey = "OAkmPDr70hLL"
 LicenseKey = "VinzCloud2K21"
 AppType = "application/json"
-vinz_server = "https://wa.vinzz.net"
+imvinz_server = "https://wa.vinzz.net"
 vinz_server_cadangan = "https://server.iamvinz.com"
 
 # SETTINGS PANEL ENDED
@@ -86,7 +86,7 @@ Jika Menemukan BUG Harap segera Lapor ke Developer\n\n
 {}================================
 """.format(cyan, kuning, cyan, kuning, white, kuning, greennd, kuning, greennd, white)
     print(vinz_banner_ended)
-impathNet = "/index.php/api/sendMessageText"
+imvinz_pathNet = "/index.php/api/sendMessageText"
 url =  imvinz_server + imvinz_pathNet
 vinz_banner_utama()
 vinz_no = str(input('{}[{}?{}] {}Nomor (62xxx) :'.format(cyan, white, cyan, white)))
