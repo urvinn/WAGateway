@@ -2,15 +2,17 @@ import requests
 import json
 import time
 from os import system
-
+#By Vinz (Don't Remove This WM !)
 
 
 
 # SETTINGS PANEL #
 
-# can get DeviceKey On : https://iamvinz.com/WAPI
 DeviceKey = "OAkmPDr70hLL"
+LicenseKey = "VinzCloud2K21"
 AppType = "application/json"
+vinz_server = "https://wa.vinzz.net"
+vinz_server_cadangan = "https://server.iamvinz.com"
 
 # SETTINGS PANEL ENDED
 
@@ -32,6 +34,20 @@ AppType = "application/json"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#By Vinz (Don't Remove This WM !)
 # Color
 cyan  = '\x1b[36m'
 white = '\x1b[37m'
@@ -68,9 +84,10 @@ Jika Menemukan BUG Harap segera Lapor ke Developer\n\n
 {}[EMAIL] : {}support@iamvinz.com
 
 {}================================
-    \n""".format(cyan, kuning, cyan, kuning, white, kuning, greennd, kuning, greennd, white)
+""".format(cyan, kuning, cyan, kuning, white, kuning, greennd, kuning, greennd, white)
     print(vinz_banner_ended)
-url = "https://iamvinz.com/WAPI/index.php/api/sendMessageText"
+impathNet = "/index.php/api/sendMessageText"
+url =  imvinz_server + imvinz_pathNet
 vinz_banner_utama()
 vinz_no = str(input('{}[{}?{}] {}Nomor (62xxx) :'.format(cyan, white, cyan, white)))
 vinz_chat = str(input('{}[{}?{}] {}Chatnya : '.format(cyan, white, cyan, white)))
@@ -87,9 +104,16 @@ for x in range(0, vinz_send_range):
     res()
     system('cls||clear')
     print('{}\n\nVinzCloud -- Whatsapp Gateway\nSending Message #{}'.format(cyan, greennd)+ str(x+1))
+    totalsend = str(x+1)
 time.sleep(1)
 system('cls||clear')  
-print("Loading...") 
+print("\nLoading...") 
 time.sleep(1)
 system('cls||clear')  
 vinz_banner_end()
+print("{}</> {}RECENT CHAT {}</>{}".format(red, kuning, red, cyan))
+print("\nSend To :"+ vinz_no)
+print("Jumlah :"+ totalsend)
+print("\nCHAT :"+ vinz_chat)
+print("\n{}===={}===={}===={}===={}===={}===={}===={}====".format(red, cyan, greennd, red, cyan, greennd, red, greennd))
+#By Vinz (Don't Remove This WM !)
