@@ -8,7 +8,7 @@ from os import system
 
 # SETTINGS PANEL #
 
-DeviceKey = "OAkmPDr70hLL"
+DeviceKey = "lW1sNnH10C58"
 LicenseKey = "VinzCloud2K21"
 AppType = "application/json"
 imvinz_server = "https://wa.vinzz.net"
@@ -92,6 +92,7 @@ vinz_banner_utama()
 vinz_no = str(input('{}[{}?{}] {}Nomor (62xxx) :'.format(cyan, white, cyan, white)))
 vinz_chat = str(input('{}[{}?{}] {}Chatnya : '.format(cyan, white, cyan, white)))
 vinz_send_range = int(input('{}[{}?{}] {}Jumlah Kirim  : '.format(cyan, white, cyan, white)))
+print('\n{}Creating Request...'.format(greennd))
 payload = json.dumps({
   "instance_key": DeviceKey,
   "jid": vinz_no,
@@ -116,4 +117,4 @@ print("\nSend To :"+ vinz_no)
 print("Jumlah :"+ totalsend)
 print("\nCHAT :"+ vinz_chat)
 print("\n{}===={}===={}===={}===={}===={}===={}===={}====".format(red, cyan, greennd, red, cyan, greennd, red, greennd))
-#By Vinz (Don't Remove This WM !)
+
