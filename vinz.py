@@ -10,7 +10,7 @@ from os import system
 
 LicenseKey = "VinzCloud2K21"
 AppType = "application/json"
-imvinz_server = "https://wa.vinzz.net"
+imvinz_server = "https://wa.iamvinz.com"
 vinz_server_cadangan = "https://server.iamvinz.com"
 
 # SETTINGS PANEL ENDED
