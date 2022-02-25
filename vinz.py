@@ -8,7 +8,6 @@ from os import system
 
 # SETTINGS PANEL #
 
-DeviceKey = "lW1sNnH10C58"
 LicenseKey = "VinzCloud2K21"
 AppType = "application/json"
 imvinz_server = "https://wa.vinzz.net"
@@ -75,8 +74,8 @@ def vinz_banner_end():
 {} |  |  | |_____|  _ |  ____ |_____|    |    |______ |  |  | |_____|   \_/  
 {} |__|__| |     |    |_____| |     |    |    |______ |__|__| |     |    |                                                                               
 \n 
-{}Terima Kasih Sudah Menggunakan Tools ini,
-Jika Menemukan BUG Harap segera Lapor ke Developer\n\n
+{}Get Device Key On https://wa.iamvinz.com,
+Thanks For Using our services\n\n
 {}================================
 ====== ( CONTACT CENTER ) ======
 
@@ -89,6 +88,7 @@ Jika Menemukan BUG Harap segera Lapor ke Developer\n\n
 imvinz_pathNet = "/index.php/api/sendMessageText"
 url =  imvinz_server + imvinz_pathNet
 vinz_banner_utama()
+DeviceKey = str(input('{}[{}?{}] {}Device ID :'.format(cyan, white, cyan, white)))
 vinz_no = str(input('{}[{}?{}] {}Nomor (62xxx) :'.format(cyan, white, cyan, white)))
 vinz_chat = str(input('{}[{}?{}] {}Chatnya : '.format(cyan, white, cyan, white)))
 vinz_send_range = int(input('{}[{}?{}] {}Jumlah Kirim  : '.format(cyan, white, cyan, white)))
